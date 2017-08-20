@@ -1,0 +1,13 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>all</title>
+</head>
+<body>
+
+    <c:forEach items="${allUsers}" var="user">
+       <p>${user}</p>
+    </c:forEach>
+</body>
+</html>
