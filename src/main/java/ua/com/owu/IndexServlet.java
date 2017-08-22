@@ -1,6 +1,6 @@
 package ua.com.owu;
 
-import ua.com.owu.db.MyDBConnection;
+import ua.com.owu.config.MyDBConnection;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
